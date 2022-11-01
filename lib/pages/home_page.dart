@@ -11,7 +11,9 @@ class HomePage extends StatelessWidget {
     String name = 'Youtube';
     return Scaffold(
       appBar: AppBar(
-        title: Text('Catalog App'),
+        title: Text(
+          'Catalog App',
+        ),
       ),
       body: Center(
         child: Container(
