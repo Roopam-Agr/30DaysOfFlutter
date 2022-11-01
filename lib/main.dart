@@ -28,14 +28,14 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
         fontFamily: GoogleFonts.ubuntu().fontFamily,
       ),
-      // debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
 
       // darkTheme: ThemeData(
       //   brightness: Brightness.dark,
       //   primarySwatch: Colors.deepPurple,
       // ),
 
-      // initialRoute: '/home',
+      initialRoute: MyRoutes.homeRoute,
       routes: {
         '/': (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),
