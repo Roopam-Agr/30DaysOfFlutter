@@ -15,20 +15,9 @@ class HomePage extends StatelessWidget {
           'Catalog App',
         ),
       ),
-      body: Container(
-        // height: 400,
-        // width: 400,
-        constraints: BoxConstraints(
-          minHeight: 70,
-          maxHeight: 200,
-          minWidth: 70,
-          maxWidth: 200,
-        ),
-        color: Colors.green,
+      body: Center(
         child: Container(
-          height: 100,
-          width: 100,
-          color: Colors.red,
+          child: Text(context.runtimeType.toString()),
         ),
       ),
       drawer: MyDrawer(),
